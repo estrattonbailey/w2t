@@ -1,6 +1,6 @@
 {
   "name": "w2t",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Tiny asynchronous action timer.",
   "source": "index.js",
   "module": "dist/w2t.es.js",

@@ -1,5 +1,5 @@
 # w2t
-Tiny asynchronous action timer. **21 bytes gzipped.**
+Tiny asynchronous action timer. **130 bytes gzipped.**
 
 ## Install
 ```
