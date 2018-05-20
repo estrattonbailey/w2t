@@ -1,0 +1,30 @@
+{
+  "name": "w2t",
+  "version": "0.0.1",
+  "description": "Tiny asynchronous action timer.",
+  "source": "index.js",
+  "module": "dist/w2t.es.js",
+  "main": "dist/w2t.js",
+  "umd:main": "dist/w2t.umd.js",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "microbundle build",
+    "watch": "microbundle watch",
+    "publish": "npm publish"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/estrattonbailey/w2t.git"
+  },
+  "author": "estrattonbailey",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/estrattonbailey/w2t/issues"
+  },
+  "homepage": "https://github.com/estrattonbailey/w2t#readme",
+  "devDependencies": {
+    "microbundle": "^0.4.4"
+  }
+}
