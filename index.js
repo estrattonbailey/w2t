@@ -1,4 +1,4 @@
-function wait (fns, delay) {
+export default function wait (delay, fns) {
   return Promise
     .all(
       fns.concat(

@@ -16,10 +16,9 @@ import wait from 'w2t'
 function addToCart (items) {
   // show loading state
 
-  wait(
-    [ addItemsToCart(items) ],
-    600
-  ).then(() => {
+  wait(600, [
+    addItemsToCart(items)
+  ]).then(() => {
     // success, hide loading state
   })
 }
