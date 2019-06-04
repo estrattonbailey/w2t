@@ -1,5 +1,5 @@
 # w2t
-Tiny asynchronous action timer. **130 bytes gzipped.**
+Tiny asynchronous action timer. **150 bytes gzipped.**
 
 ## Install
 ```
@@ -21,6 +21,17 @@ function addToCart (items) {
   ]).then(() => {
     // success, hide loading state
   })
+}
+```
+
+If no actions are provided, `w2t` becomes useful as a `sleep` handler:
+```javascript
+async function addToCart (items) {
+  addItemsToCart(items)
+
+  await wait(600) // wait 600ms
+
+  // do something
 }
 ```
 
