@@ -1,7 +1,10 @@
-export default function wait (delay, fns = []) {
+export default function wait (
+  delay: number,
+  fns: any = []
+) {
   return Promise
     .all(
-      fns.concat(
+      [].concat(fns).concat(
         new Promise(r => setTimeout(r, delay))
       )
     )
